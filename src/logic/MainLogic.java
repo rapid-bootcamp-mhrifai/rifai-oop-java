@@ -1,4 +1,7 @@
-import logic.*;
+package logic;
+
+import logic.logic01.*;
+import logic.logic02.Logic02Soal09;
 
 public class MainLogic {
     public static void main(String[] args) {
