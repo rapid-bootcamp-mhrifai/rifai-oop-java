@@ -1,7 +1,7 @@
 package logic;
 
 import logic.logic01.*;
-import logic.logic02.Logic02Soal09;
+import logic.logic02.*;
 
 public class MainLogic {
     public static void main(String[] args) {
@@ -44,6 +44,35 @@ public class MainLogic {
         System.out.println("\n\nSample Logic 01 Soal 10");
         Logic01Soal10 logic01Soal10 = new Logic01Soal10(9);
         logic01Soal10.cetakArray();
+
+
+        System.out.println("\n\n\nSample Logic 02 Soal 01");
+        Logic02Soal01 logic02Soal01 = new Logic02Soal01(9);
+        logic02Soal01.cetakArray();
+
+        System.out.println("\n\nSample Logic 02 Soal 02");
+        Logic02Soal02 logic02Soal02 = new Logic02Soal02(9);
+        logic02Soal02.cetakArray();
+
+        System.out.println("\n\nSample Logic 02 Soal 03");
+        Logic02Soal03 logic02Soal03 = new Logic02Soal03(9);
+        logic02Soal03.cetakArray();
+
+        System.out.println("\n\nSample Logic 02 Soal 04");
+        Logic02Soal04 logic02Soal04 = new Logic02Soal04(9);
+        logic02Soal04.cetakArray();
+
+        System.out.println("\n\nSample Logic 02 Soal 05");
+        Logic02Soal05 logic02Soal05 = new Logic02Soal05(9);
+        logic02Soal05.cetakArray();
+
+        System.out.println("\n\nSample Logic 02 Soal 06");
+        Logic02Soal06 logic02Soal06 = new Logic02Soal06(9);
+        logic02Soal06.cetakArray();
+
+        System.out.println("\n\nSample Logic 02 Soal 07");
+        Logic02Soal07 logic02Soal07 = new Logic02Soal07(9);
+        logic02Soal07.cetakArray();
 
         System.out.println("\n\nSample Logic 02 Soal 09");
         Logic02Soal09 logic02Soal09 = new Logic02Soal09(9);

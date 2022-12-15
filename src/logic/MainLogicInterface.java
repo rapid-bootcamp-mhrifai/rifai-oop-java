@@ -2,10 +2,7 @@ package logic;
 
 import logic.logicInterface.LogicInterface;
 import logic.logicInterface.logic01Impl.*;
-import logic.logicInterface.logic02Impl.Logic02Soal01Impl;
-import logic.logicInterface.logic02Impl.Logic02Soal02Impl;
-import logic.logicInterface.logic02Impl.Logic02Soal03Impl;
-import logic.logicInterface.logic02Impl.Logic02Soal04Impl;
+import logic.logicInterface.logic02Impl.*;
 
 public class MainLogicInterface {
     public static void main(String[] args) {
@@ -67,6 +64,19 @@ public class MainLogicInterface {
         System.out.println("\n\nLogic 02 Soal 04");
         LogicInterface logic02Soal04 = new Logic02Soal04Impl(new BasicLogic(9));
         logic02Soal04.cetakArray();
+
+        System.out.println("\n\nLogic 02 Soal 05");
+        LogicInterface logic02Soal05 = new Logic02Soal05Impl(new BasicLogic(9));
+        logic02Soal05.cetakArray();
+
+        System.out.println("\n\nLogic 02 Soal 06");
+        LogicInterface logic02Soal06 = new Logic02Soal06Impl(new BasicLogic(9));
+        logic02Soal06.cetakArray();
+
+        System.out.println("\n\nLogic 02 Soal 07");
+        LogicInterface logic02Soal07 = new Logic02Soal07Impl(new BasicLogic(9));
+        logic02Soal07.cetakArray();
+
     }
 }
 
